@@ -1,4 +1,7 @@
-
+.main{
+    background-color: black;
+    height: fit-content;
+}
 
 img{
     height: 300px;
@@ -19,7 +22,7 @@ img{
 .table{
     display: flex;
     justify-content:space-around;
-    background-color: gray;
+    background-color: rgb(7, 7, 7);
 }
 
 .player{
@@ -31,9 +34,18 @@ h1{
     align-items: center;
     display: flex;
 }
+h2{
+    color: rgb(249, 249, 253);
+}
+
+.you{
+    font-size: xx-large;
+    color: white;
+}
 
 .title{
     font-size: xx-large;
+    color: white;
 }
 
 .hand{
@@ -71,10 +83,12 @@ h1{
 
 #scissors{
     background-color: burlywood;
+    cursor: pointer;
 }
 
-#rock{
+#rock {
     background-color: azure;
+    cursor: pointer;
 }
 
 
